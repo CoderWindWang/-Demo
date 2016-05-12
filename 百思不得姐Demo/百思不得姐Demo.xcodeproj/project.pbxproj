@@ -18,6 +18,9 @@
 		B03470071CE3502B00AC0CA1 /* WDWFriendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B03470061CE3502B00AC0CA1 /* WDWFriendsController.m */; };
 		B034700A1CE3504200AC0CA1 /* WDWMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B03470091CE3504200AC0CA1 /* WDWMeController.m */; };
 		B034700D1CE38C8300AC0CA1 /* WDWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B034700C1CE38C8300AC0CA1 /* WDWTabBar.m */; };
+		B040C37F1CE4A34900EF7E80 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B040C37E1CE4A34900EF7E80 /* UIBarButtonItem+Extension.m */; };
+		B040C3821CE4A35200EF7E80 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B040C3811CE4A35200EF7E80 /* UIView+Extension.m */; };
+		B040C3851CE4A35A00EF7E80 /* WDWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B040C3841CE4A35A00EF7E80 /* WDWNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,13 @@
 		B03470091CE3504200AC0CA1 /* WDWMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDWMeController.m; sourceTree = "<group>"; };
 		B034700B1CE38C8300AC0CA1 /* WDWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDWTabBar.h; sourceTree = "<group>"; };
 		B034700C1CE38C8300AC0CA1 /* WDWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDWTabBar.m; sourceTree = "<group>"; };
+		B040C37C1CE4A33400EF7E80 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B040C37D1CE4A34900EF7E80 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		B040C37E1CE4A34900EF7E80 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		B040C3801CE4A35200EF7E80 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		B040C3811CE4A35200EF7E80 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		B040C3831CE4A35A00EF7E80 /* WDWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDWNavigationController.h; sourceTree = "<group>"; };
+		B040C3841CE4A35A00EF7E80 /* WDWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDWNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +136,12 @@
 				B03470091CE3504200AC0CA1 /* WDWMeController.m */,
 				B034700B1CE38C8300AC0CA1 /* WDWTabBar.h */,
 				B034700C1CE38C8300AC0CA1 /* WDWTabBar.m */,
+				B040C37D1CE4A34900EF7E80 /* UIBarButtonItem+Extension.h */,
+				B040C37E1CE4A34900EF7E80 /* UIBarButtonItem+Extension.m */,
+				B040C3801CE4A35200EF7E80 /* UIView+Extension.h */,
+				B040C3811CE4A35200EF7E80 /* UIView+Extension.m */,
+				B040C3831CE4A35A00EF7E80 /* WDWNavigationController.h */,
+				B040C3841CE4A35A00EF7E80 /* WDWNavigationController.m */,
 				B0346FD31CE2F15400AC0CA1 /* Assets.xcassets */,
 				B0346FD81CE2F15400AC0CA1 /* Info.plist */,
 				B0346FC71CE2F15400AC0CA1 /* Supporting Files */,
@@ -136,6 +152,7 @@
 		B0346FC71CE2F15400AC0CA1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B040C37C1CE4A33400EF7E80 /* PrefixHeader.pch */,
 				B0346FC81CE2F15400AC0CA1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -291,12 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B040C3821CE4A35200EF7E80 /* UIView+Extension.m in Sources */,
 				B03470071CE3502B00AC0CA1 /* WDWFriendsController.m in Sources */,
 				B0346FCC1CE2F15400AC0CA1 /* AppDelegate.m in Sources */,
 				B03470011CE3500500AC0CA1 /* WDWEssenceController.m in Sources */,
 				B0346FC91CE2F15400AC0CA1 /* main.m in Sources */,
 				B034700D1CE38C8300AC0CA1 /* WDWTabBar.m in Sources */,
 				B0346FFE1CE3037F00AC0CA1 /* WDWTabBarController.m in Sources */,
+				B040C3851CE4A35A00EF7E80 /* WDWNavigationController.m in Sources */,
+				B040C37F1CE4A34900EF7E80 /* UIBarButtonItem+Extension.m in Sources */,
 				B034700A1CE3504200AC0CA1 /* WDWMeController.m in Sources */,
 				B03470041CE3501800AC0CA1 /* WDWNewController.m in Sources */,
 			);
@@ -424,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				GCC_PREFIX_HEADER = "百思不得姐Demo/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Wind.-----Demo";
@@ -438,6 +459,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				GCC_PREFIX_HEADER = "百思不得姐Demo/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Wind.-----Demo";
@@ -511,6 +533,7 @@
 				B0346FF31CE2F15400AC0CA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0346FF41CE2F15400AC0CA1 /* Build configuration list for PBXNativeTarget "百思不得姐DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +542,7 @@
 				B0346FF61CE2F15400AC0CA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0346FF71CE2F15400AC0CA1 /* Build configuration list for PBXNativeTarget "百思不得姐DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +551,7 @@
 				B0346FF91CE2F15400AC0CA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

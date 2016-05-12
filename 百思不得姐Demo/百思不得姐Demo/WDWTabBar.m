@@ -19,6 +19,8 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     
     if (self = [super initWithFrame:frame]) {
+        //设置tabBar的背景颜色
+        [self setBackgroundImage:[UIImage imageNamed:@"tabbar-light"]];
         //创建一个publishBtn
         UIButton *publishBtn = [[UIButton alloc]init];
         [publishBtn setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];

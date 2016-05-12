@@ -12,6 +12,7 @@
 #import "WDWFriendsController.h"
 #import "WDWMeController.h"
 #import "WDWTabBar.h"
+#import "WDWNavigationController.h"
 
 @interface WDWTabBarController ()
 
@@ -21,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = WDWGlobalColor;
     //通过apperance统一设置tabBarItem的title属性
     self.tabBarItem = [UITabBarItem appearance];
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
@@ -51,19 +52,14 @@
 /**
  *  创建tabBarController的子控制器
  *
- *  @param vc                控制器类型
- *  @param title             tabBarItem的标题
- *  @param imageName         tabBarItem的图片名称
- *  @param selectedImageName tabBarItem选中的图片名称
  */
 - (void)setupChildController:(UIViewController *)vc withTitle:(NSString *)title withImageName:(NSString *)imageName withSelectedImageName:(NSString *)selectedImageName{
     vc.tabBarItem.title = title;
     vc.tabBarItem.image = [UIImage imageNamed:imageName];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImageName];
-    [self addChildViewController:vc];
+    WDWNavigationController *navi = [[WDWNavigationController alloc]initWithRootViewController:vc];
+    [self addChildViewController:navi];
 
 }
-
-
 
 @end
