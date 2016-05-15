@@ -7,6 +7,8 @@
 //
 
 #import "WDWFriendsController.h"
+#import "WDWRecommendViewController.h"
+
 
 @interface WDWFriendsController ()
 
@@ -16,13 +18,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //设置背景颜色
+    self.view.backgroundColor = WDWGlobalColor;
     self.navigationItem.title = @"我的关注";
-    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highLightImage:@"friendsRecommentIcon-click" target:self action:@selector(click)];
+//    //添加Segmented Control
+//    UISegmentedControl *segmented = [[UISegmentedControl alloc]init];
+////    segmented.segmentedControlStyle = 
+//    [self.navigationItem.titleView addSubview:segmented];
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highLightImage:@"friendsRecommentIcon-click" target:self action:@selector(clickRecommend)];
 }
 
-- (void)click{
-
-    WDWLogFunc;
+- (void)clickRecommend{
+    
+    WDWRecommendViewController *rVC = [[WDWRecommendViewController alloc]init];
+    [self.navigationController pushViewController:rVC animated:YES];
     
 }
 

@@ -40,6 +40,7 @@
         backBtn.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
         [backBtn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:backBtn];
+        //当push出新的控制器的时候把tabBar隐藏
         viewController.hidesBottomBarWhenPushed = YES;
     }
 

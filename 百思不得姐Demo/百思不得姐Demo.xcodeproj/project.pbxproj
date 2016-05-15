@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		647428BE4D56DBE0D30A05E6 /* libPods-百思不得姐Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4811D8ECB3E7617964651A1F /* libPods-百思不得姐Demo.a */; };
 		B0346FD41CE2F15400AC0CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0346FD31CE2F15400AC0CA1 /* Assets.xcassets */; };
 		B0346FE21CE2F15400AC0CA1 /* _____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0346FE11CE2F15400AC0CA1 /* _____DemoTests.m */; };
 		B0346FED1CE2F15400AC0CA1 /* _____DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0346FEC1CE2F15400AC0CA1 /* _____DemoUITests.m */; };
@@ -21,6 +22,9 @@
 		B040C3BA1CE4A64700EF7E80 /* WDWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B040C3AB1CE4A64700EF7E80 /* WDWTabBarController.m */; };
 		B040C3BB1CE4A64700EF7E80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B040C3AC1CE4A64700EF7E80 /* main.m */; };
 		B040C3BC1CE4A64700EF7E80 /* WDWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B040C3B11CE4A64700EF7E80 /* WDWTabBar.m */; };
+		B040C4001CE842B700EF7E80 /* WDWFriendsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B040C3FF1CE842B700EF7E80 /* WDWFriendsController.xib */; };
+		B040C4041CE844F400EF7E80 /* WDWRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B040C4021CE844F400EF7E80 /* WDWRecommendViewController.m */; };
+		B040C4051CE844F400EF7E80 /* WDWRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B040C4031CE844F400EF7E80 /* WDWRecommendViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FE46FA048DBC02E35D535E5 /* Pods-百思不得姐Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐Demo/Pods-百思不得姐Demo.release.xcconfig"; sourceTree = "<group>"; };
+		33BD8A3B4FC68F2BDE9670EB /* Pods-百思不得姐Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐Demo/Pods-百思不得姐Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		4811D8ECB3E7617964651A1F /* libPods-百思不得姐Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0346FC41CE2F15400AC0CA1 /* 百思不得姐Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0346FD31CE2F15400AC0CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0346FD81CE2F15400AC0CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +79,10 @@
 		B040C3AE1CE4A64700EF7E80 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B040C3B01CE4A64700EF7E80 /* WDWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDWTabBar.h; sourceTree = "<group>"; };
 		B040C3B11CE4A64700EF7E80 /* WDWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDWTabBar.m; sourceTree = "<group>"; };
+		B040C3FF1CE842B700EF7E80 /* WDWFriendsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WDWFriendsController.xib; sourceTree = "<group>"; };
+		B040C4011CE844F400EF7E80 /* WDWRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDWRecommendViewController.h; sourceTree = "<group>"; };
+		B040C4021CE844F400EF7E80 /* WDWRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDWRecommendViewController.m; sourceTree = "<group>"; };
+		B040C4031CE844F400EF7E80 /* WDWRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WDWRecommendViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				647428BE4D56DBE0D30A05E6 /* libPods-百思不得姐Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +111,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A1F88D7B942EB319FF389D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33BD8A3B4FC68F2BDE9670EB /* Pods-百思不得姐Demo.debug.xcconfig */,
+				0FE46FA048DBC02E35D535E5 /* Pods-百思不得姐Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B0346FBB1CE2F15400AC0CA1 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +127,8 @@
 				B0346FE01CE2F15400AC0CA1 /* 百思不得姐DemoTests */,
 				B0346FEB1CE2F15400AC0CA1 /* 百思不得姐DemoUITests */,
 				B0346FC51CE2F15400AC0CA1 /* Products */,
+				6A1F88D7B942EB319FF389D1 /* Pods */,
+				DE09891A7282E30678E0E114 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,9 +182,9 @@
 			isa = PBXGroup;
 			children = (
 				B040C3871CE4A64700EF7E80 /* Essence-精华 */,
+				B040C3991CE4A64700EF7E80 /* New-最新 */,
 				B040C38D1CE4A64700EF7E80 /* Frirnds-关注 */,
 				B040C3931CE4A64700EF7E80 /* Me-我 */,
-				B040C3991CE4A64700EF7E80 /* New-最新 */,
 				B040C39F1CE4A64700EF7E80 /* Other-其他 */,
 			);
 			path = Classes;
@@ -215,6 +238,10 @@
 			children = (
 				B040C38F1CE4A64700EF7E80 /* WDWFriendsController.h */,
 				B040C3901CE4A64700EF7E80 /* WDWFriendsController.m */,
+				B040C3FF1CE842B700EF7E80 /* WDWFriendsController.xib */,
+				B040C4011CE844F400EF7E80 /* WDWRecommendViewController.h */,
+				B040C4021CE844F400EF7E80 /* WDWRecommendViewController.m */,
+				B040C4031CE844F400EF7E80 /* WDWRecommendViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -302,14 +329,14 @@
 		B040C39F1CE4A64700EF7E80 /* Other-其他 */ = {
 			isa = PBXGroup;
 			children = (
+				B040C3A71CE4A64700EF7E80 /* Controller */,
+				B040C3AD1CE4A64700EF7E80 /* Model */,
+				B040C3AF1CE4A64700EF7E80 /* View */,
+				B040C3A21CE4A64700EF7E80 /* Catagory */,
 				B040C3A01CE4A64700EF7E80 /* AppDelegate.h */,
 				B040C3A11CE4A64700EF7E80 /* AppDelegate.m */,
-				B040C3A21CE4A64700EF7E80 /* Catagory */,
-				B040C3A71CE4A64700EF7E80 /* Controller */,
 				B040C3AC1CE4A64700EF7E80 /* main.m */,
-				B040C3AD1CE4A64700EF7E80 /* Model */,
 				B040C3AE1CE4A64700EF7E80 /* PrefixHeader.pch */,
-				B040C3AF1CE4A64700EF7E80 /* View */,
 			);
 			path = "Other-其他";
 			sourceTree = "<group>";
@@ -352,6 +379,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DE09891A7282E30678E0E114 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4811D8ECB3E7617964651A1F /* libPods-百思不得姐Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -359,9 +394,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0346FF11CE2F15400AC0CA1 /* Build configuration list for PBXNativeTarget "百思不得姐Demo" */;
 			buildPhases = (
+				74568FA88EC071875D3A989E /* 📦 Check Pods Manifest.lock */,
 				B0346FC01CE2F15400AC0CA1 /* Sources */,
 				B0346FC11CE2F15400AC0CA1 /* Frameworks */,
 				B0346FC21CE2F15400AC0CA1 /* Resources */,
+				F18C76643615A756910103B3 /* 📦 Embed Pods Frameworks */,
+				04A5CF1FD7FEA9BB4C64DFC2 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -459,6 +497,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B040C4051CE844F400EF7E80 /* WDWRecommendViewController.xib in Resources */,
+				B040C4001CE842B700EF7E80 /* WDWFriendsController.xib in Resources */,
 				B0346FD41CE2F15400AC0CA1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +519,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04A5CF1FD7FEA9BB4C64DFC2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐Demo/Pods-百思不得姐Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74568FA88EC071875D3A989E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F18C76643615A756910103B3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐Demo/Pods-百思不得姐Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0346FC01CE2F15400AC0CA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -494,6 +582,7 @@
 				B040C3B21CE4A64700EF7E80 /* WDWEssenceController.m in Sources */,
 				B040C3B41CE4A64700EF7E80 /* WDWMeController.m in Sources */,
 				B040C3B61CE4A64700EF7E80 /* AppDelegate.m in Sources */,
+				B040C4041CE844F400EF7E80 /* WDWRecommendViewController.m in Sources */,
 				B040C3BA1CE4A64700EF7E80 /* WDWTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,6 +705,7 @@
 		};
 		B0346FF21CE2F15400AC0CA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BD8A3B4FC68F2BDE9670EB /* Pods-百思不得姐Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -631,6 +721,7 @@
 		};
 		B0346FF31CE2F15400AC0CA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FE46FA048DBC02E35D535E5 /* Pods-百思不得姐Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
