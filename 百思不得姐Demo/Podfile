@@ -7,4 +7,6 @@ target :"百思不得姐Demo" do
     pod "AFNetworking"
     pod "SDWebImage"
     pod "SVProgressHUD"
+    pod "Masonry"
+
 end

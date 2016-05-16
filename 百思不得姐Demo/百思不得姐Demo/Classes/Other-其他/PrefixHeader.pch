@@ -10,11 +10,15 @@
 #define PrefixHeader_pch
 
 #import "UIView+Extension.h"
-
 #import "UIBarButtonItem+Extension.h"
+#import <Masonry.h>
 
-#define WDWRBGColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0];
-#define WDWGlobalColor WDWRBGColor(234, 234, 234);
+#define WDWRBGColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define WDWGlobalColor WDWRBGColor(234, 234, 234)
+
+#define WDWRandomColor WDWRGBColor(arc4random_uniform(256),arc4random_uniform(256),arc4random_uniform(256))
+
 
 #ifdef DEBUG
 #define WDWLog(...) NSLog(__VA_ARGS__)
